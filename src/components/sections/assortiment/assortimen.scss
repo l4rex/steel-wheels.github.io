@@ -1,0 +1,45 @@
+.assortiment {
+    padding-bottom: 50px;
+}
+
+.assortiment__cards {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    gap: 55px;
+
+    text-align: center;
+}
+
+.assortiment__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    .assortiment__search {
+        
+        border: 1px solid #F3F3F3;
+        border-radius: 10px;
+        padding: 0 15px;
+        position: relative;
+
+        input {
+            border: 0;
+            background-color: inherit;
+            padding: 10px;
+            font-size: 16px;
+
+            &:focus {outline: none;}
+        }
+
+        button {
+            background: inherit;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            top:7px;
+            right: 5px;
+        }
+    }
+}

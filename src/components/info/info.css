@@ -1,0 +1,37 @@
+.empty__drawer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+
+    h3 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    }
+    p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color: #b9b9b9;
+    }
+    button {
+        border: none;
+        background-color: #9DD458;
+        color: #fff;
+        width: 245px;
+        height: 55px;
+        border-radius: 18px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+
+        position: relative;
+        img {
+            position: absolute;
+            left: 31px;
+            top: 21px;
+        }
+    }
+}
